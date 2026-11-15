@@ -1,0 +1,43 @@
+name: aai4323_hw12
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+
+dependencies:
+  - python=3.12
+  - pytorch
+  - cpuonly
+
+  # Required pinned versions
+  - numpy=1.26.4
+  - pandas=2.1.4
+
+  # Jupyter ecosystem
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - notebook
+  - nbconvert
+  - nbformat
+  - jupyter_client
+  - jupyter_core
+
+  # Visualization
+  - matplotlib
+  - seaborn
+  - scipy
+
+  # ML and Statistics
+  - scikit-learn
+
+  # Utilities
+  - tqdm
+  - python-dotenv
+  - tabulate
+  - psutil
+  - requests
+  - python-dateutil
+  - pyyaml
+  - joblib
+  - cloudpickle
